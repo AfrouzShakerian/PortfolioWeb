@@ -1,0 +1,53 @@
+body {
+    background-color: #dfdfdf;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 10rem;
+    padding: 10px 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(196, 75, 204);
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li{
+    list-style: none;
+    font-weight: bold;
+    padding: 15px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid rgb(50, 50, 78);
+    border-right: 3px solid rgb(50 , 50, 78);
+}
+
+.about-me-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-container img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.contact-list {
+    padding-top: 5px;
+    font-size: 20px;
+}
