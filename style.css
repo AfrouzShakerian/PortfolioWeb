@@ -5,6 +5,16 @@ body {
     padding: 10px 0;
 }
 
+body.dark-mode {
+    background-color: rgb(50, 50, 78);
+    color: #dfdfdf;
+}
+
+body.dark-mode h2 {
+    border-bottom-color: #dfdfdf;
+    border-right-color: #dfdfdf;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -27,6 +37,18 @@ body {
 #navbar a {
     text-decoration: none;
     color: black;
+}
+
+#toggle-background {
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #dfdfdf;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#toggle-background:hover {
+    background-color: #ebc4c4;
 }
 
 h2 {
